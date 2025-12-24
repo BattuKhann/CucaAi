@@ -3,8 +3,6 @@
 #include <iostream>
 #include "json.hpp"
 
-const int MAX_TERRITORIES = 64;
-
 Map::Map(int t_count, int c_count) {
     numTerritories = t_count;
     numContinents = c_count;

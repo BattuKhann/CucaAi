@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/RiskEngine.dir/main.cpp.o -o RiskEngine 
+/usr/bin/c++ CMakeFiles/RiskEngine.dir/Board.cpp.o CMakeFiles/RiskEngine.dir/Dice.cpp.o CMakeFiles/RiskEngine.dir/main.cpp.o -o RiskEngine 

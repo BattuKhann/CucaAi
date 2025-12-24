@@ -14,4 +14,4 @@ include_directories(../include)
 # 4. Create the executable
 # "RiskGame" is the output name
 # "main.cpp" is your source file
-add_executable(RiskEngine main.cpp)
+add_executable(RiskEngine Board.hpp Board.cpp Dice.hpp Dice.cpp main.cpp)

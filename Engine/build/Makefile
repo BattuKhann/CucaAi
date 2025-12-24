@@ -129,6 +129,54 @@ RiskEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RiskEngine.dir/build.make CMakeFiles/RiskEngine.dir/build
 .PHONY : RiskEngine/fast
 
+Board.o: Board.cpp.o
+.PHONY : Board.o
+
+# target to build an object file
+Board.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RiskEngine.dir/build.make CMakeFiles/RiskEngine.dir/Board.cpp.o
+.PHONY : Board.cpp.o
+
+Board.i: Board.cpp.i
+.PHONY : Board.i
+
+# target to preprocess a source file
+Board.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RiskEngine.dir/build.make CMakeFiles/RiskEngine.dir/Board.cpp.i
+.PHONY : Board.cpp.i
+
+Board.s: Board.cpp.s
+.PHONY : Board.s
+
+# target to generate assembly for a file
+Board.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RiskEngine.dir/build.make CMakeFiles/RiskEngine.dir/Board.cpp.s
+.PHONY : Board.cpp.s
+
+Dice.o: Dice.cpp.o
+.PHONY : Dice.o
+
+# target to build an object file
+Dice.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RiskEngine.dir/build.make CMakeFiles/RiskEngine.dir/Dice.cpp.o
+.PHONY : Dice.cpp.o
+
+Dice.i: Dice.cpp.i
+.PHONY : Dice.i
+
+# target to preprocess a source file
+Dice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RiskEngine.dir/build.make CMakeFiles/RiskEngine.dir/Dice.cpp.i
+.PHONY : Dice.cpp.i
+
+Dice.s: Dice.cpp.s
+.PHONY : Dice.s
+
+# target to generate assembly for a file
+Dice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RiskEngine.dir/build.make CMakeFiles/RiskEngine.dir/Dice.cpp.s
+.PHONY : Dice.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... RiskEngine"
+	@echo "... Board.o"
+	@echo "... Board.i"
+	@echo "... Board.s"
+	@echo "... Dice.o"
+	@echo "... Dice.i"
+	@echo "... Dice.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

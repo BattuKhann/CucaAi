@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/RiskEngine.dir/Board.cpp.o"
+  "CMakeFiles/RiskEngine.dir/Board.cpp.o.d"
+  "CMakeFiles/RiskEngine.dir/Dice.cpp.o"
+  "CMakeFiles/RiskEngine.dir/Dice.cpp.o.d"
   "CMakeFiles/RiskEngine.dir/main.cpp.o"
   "CMakeFiles/RiskEngine.dir/main.cpp.o.d"
   "RiskEngine"

@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/yusef/Coding/CucaAi/Engine/Board.cpp" "CMakeFiles/RiskEngine.dir/Board.cpp.o" "gcc" "CMakeFiles/RiskEngine.dir/Board.cpp.o.d"
+  "/home/yusef/Coding/CucaAi/Engine/Dice.cpp" "CMakeFiles/RiskEngine.dir/Dice.cpp.o" "gcc" "CMakeFiles/RiskEngine.dir/Dice.cpp.o.d"
   "/home/yusef/Coding/CucaAi/Engine/main.cpp" "CMakeFiles/RiskEngine.dir/main.cpp.o" "gcc" "CMakeFiles/RiskEngine.dir/main.cpp.o.d"
   )
 

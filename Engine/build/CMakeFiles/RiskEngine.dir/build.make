@@ -69,10 +69,38 @@ include CMakeFiles/RiskEngine.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RiskEngine.dir/flags.make
 
+CMakeFiles/RiskEngine.dir/Board.cpp.o: CMakeFiles/RiskEngine.dir/flags.make
+CMakeFiles/RiskEngine.dir/Board.cpp.o: /home/yusef/Coding/CucaAi/Engine/Board.cpp
+CMakeFiles/RiskEngine.dir/Board.cpp.o: CMakeFiles/RiskEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yusef/Coding/CucaAi/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RiskEngine.dir/Board.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RiskEngine.dir/Board.cpp.o -MF CMakeFiles/RiskEngine.dir/Board.cpp.o.d -o CMakeFiles/RiskEngine.dir/Board.cpp.o -c /home/yusef/Coding/CucaAi/Engine/Board.cpp
+
+CMakeFiles/RiskEngine.dir/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RiskEngine.dir/Board.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yusef/Coding/CucaAi/Engine/Board.cpp > CMakeFiles/RiskEngine.dir/Board.cpp.i
+
+CMakeFiles/RiskEngine.dir/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RiskEngine.dir/Board.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yusef/Coding/CucaAi/Engine/Board.cpp -o CMakeFiles/RiskEngine.dir/Board.cpp.s
+
+CMakeFiles/RiskEngine.dir/Dice.cpp.o: CMakeFiles/RiskEngine.dir/flags.make
+CMakeFiles/RiskEngine.dir/Dice.cpp.o: /home/yusef/Coding/CucaAi/Engine/Dice.cpp
+CMakeFiles/RiskEngine.dir/Dice.cpp.o: CMakeFiles/RiskEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yusef/Coding/CucaAi/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RiskEngine.dir/Dice.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RiskEngine.dir/Dice.cpp.o -MF CMakeFiles/RiskEngine.dir/Dice.cpp.o.d -o CMakeFiles/RiskEngine.dir/Dice.cpp.o -c /home/yusef/Coding/CucaAi/Engine/Dice.cpp
+
+CMakeFiles/RiskEngine.dir/Dice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RiskEngine.dir/Dice.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yusef/Coding/CucaAi/Engine/Dice.cpp > CMakeFiles/RiskEngine.dir/Dice.cpp.i
+
+CMakeFiles/RiskEngine.dir/Dice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RiskEngine.dir/Dice.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yusef/Coding/CucaAi/Engine/Dice.cpp -o CMakeFiles/RiskEngine.dir/Dice.cpp.s
+
 CMakeFiles/RiskEngine.dir/main.cpp.o: CMakeFiles/RiskEngine.dir/flags.make
 CMakeFiles/RiskEngine.dir/main.cpp.o: /home/yusef/Coding/CucaAi/Engine/main.cpp
 CMakeFiles/RiskEngine.dir/main.cpp.o: CMakeFiles/RiskEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yusef/Coding/CucaAi/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RiskEngine.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yusef/Coding/CucaAi/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RiskEngine.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RiskEngine.dir/main.cpp.o -MF CMakeFiles/RiskEngine.dir/main.cpp.o.d -o CMakeFiles/RiskEngine.dir/main.cpp.o -c /home/yusef/Coding/CucaAi/Engine/main.cpp
 
 CMakeFiles/RiskEngine.dir/main.cpp.i: cmake_force
@@ -85,15 +113,19 @@ CMakeFiles/RiskEngine.dir/main.cpp.s: cmake_force
 
 # Object files for target RiskEngine
 RiskEngine_OBJECTS = \
+"CMakeFiles/RiskEngine.dir/Board.cpp.o" \
+"CMakeFiles/RiskEngine.dir/Dice.cpp.o" \
 "CMakeFiles/RiskEngine.dir/main.cpp.o"
 
 # External object files for target RiskEngine
 RiskEngine_EXTERNAL_OBJECTS =
 
+RiskEngine: CMakeFiles/RiskEngine.dir/Board.cpp.o
+RiskEngine: CMakeFiles/RiskEngine.dir/Dice.cpp.o
 RiskEngine: CMakeFiles/RiskEngine.dir/main.cpp.o
 RiskEngine: CMakeFiles/RiskEngine.dir/build.make
 RiskEngine: CMakeFiles/RiskEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/yusef/Coding/CucaAi/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable RiskEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/yusef/Coding/CucaAi/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable RiskEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RiskEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
